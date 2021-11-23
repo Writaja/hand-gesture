@@ -25,3 +25,18 @@ function speak(){
     var utterthis=new SpeechSynthesisUtterance(speakdata1+speakdata2);
     synth.speak(utterthis);
 }
+if(result[0].label=="victory"){
+    document.getElementById("update_enmoji1").innerHTML="&#9996"; 
+ }
+ if(result[0].label=="Crossed Fingers"){
+     document.getElementById("update_enmoji1").innerHTML="&#128532"; 
+  }
+  if(result[0].label=="Best"){
+     document.getElementById("update_enmoji1").innerHTML="&#129310"; 
+  }
+  
+  if(result[0].label=="Amazing"){
+     document.getElementById("update_enmoji2").innerHTML="&#128516"; 
+  }
+  
+
